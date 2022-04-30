@@ -1,0 +1,131 @@
+body {
+  border-width: 30px;
+  border-style: solid;
+  border-color: #FC8019;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-black', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.row {
+  margin-bottom: 0;
+}
+.r {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* FIND THE NEW TASTE DAILY */
+.h {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+#title {
+  text-align: left;
+}
+.food {
+  border-radius: 30%;
+  width: 80%;
+  height: 80%;
+  position: relative;
+  left: 22%;
+}
+/* BUTTON */
+.button {
+  margin: 5% 3% 5% 0;
+}
+/* FEATURES */
+.feature-box {
+  padding: 7% 15%;
+}
+.icon {
+  color: black;
+  margin: 1rem;
+}
+.icon:hover {
+  color: #6c757d;
+}
+/* TESTIMONIALS */
+#testimonials
+{
+  background-color: #FD5D5D;
+  color: white;
+}
+.carousel-item {
+  padding: 7% 25%;
+}
+.testimonials-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* LOCATION */
+.i {
+  font-size: 3rem;
+}
+.l {
+  padding: 8% 8% 0;
+}
+/* PRICING */
+.pricing {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#pricing {
+  padding:100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-item-heading {
+  font-weight: bold;
+}
+/* RESPONSIVENESS */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .food {
+    position: static;
+    width: 50%;
+  }
+}
+/* FOOTER */
+#footer.container-fluid{
+  padding: 3% 15% 1%;
+  background-color: #DFDFDE;
+}
+.footer-icon {
+  color: grey;
+  text-decoration: none;
+  margin: 3% 1%;
+}
+.footer-icon:hover {
+  color: black;
+}
